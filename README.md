@@ -9,6 +9,9 @@ I want to build a Tic Tca toe where:
 4. When it's a draw the same way a messege will be shown and the match will be below the messege.
 5. There will be a "New Game" button showed with the messeges so that by clicking on it the reset condition will be performed and the empty boxes will be back.
 
-I tried to look up for recources for this thinking there must be someone who has made this but I coudn't find one which met all my wishes, so I'm trying to build it myself.
+I tried to look up for recources for this thinking there must be someone who has made this but I coudn't find one which met all my wishes, so I tried to build it myself. 
+
+Try it here
+https://sneha-techgirl.github.io/tic-tac-toe/
 
 Thank you for reading ^-^
