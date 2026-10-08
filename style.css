@@ -4,8 +4,9 @@
 }
 
 body {
-  background-color: maroon;
+  background-color: rgb(67, 2, 2);
   text-align: center;
+  color: white;
 }
 
 .container{
@@ -22,7 +23,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5vmin;
+  gap: 1.6vmin;
+
 }
 
 .box{
@@ -32,26 +34,77 @@ body {
   border: none;
   box-shadow: 0 0 1rem rgba(0,0,0,0.5);
   font-size: 8vmin;
-  color: black;
-  background-color: bisque;
+  color:black;
+  background-color: #351903;
+  border: solid 4px rgb(121, 56, 56);
+  transition: 0.3s background;
 }
+
+.box:hover{
+  background: #875630;
+}
+
 
 #reset-btn{
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: bisque;
-  color: brown;
+  background-color: rgb(255, 210, 156);
+  color: rgb(67, 2, 2);
   border-radius: 1rem;
   border: none;
+  border: solid 4px rgb(121, 56, 56);
+  transition: 0.3s background;
+}
+
+#reset-btn:hover{
+  background: bisque;
 }
 
 #new-btn{
-     padding: 1rem;
+  padding: 1rem;
   font-size: 1.25rem;
-  background-color: bisque;
-  color: brown;
+  background-color:rgb(255, 210, 156);
+  color: rgb(67, 2, 2);
   border-radius: 1rem;
   border: none;
+  border: solid 4px rgb(121, 56, 56);
+  transition: 0.3s background;
+}
+
+#new-btn:hover{
+  background: bisque;
+}
+
+#nextPage {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(255, 210, 156);
+  color: rgb(67, 2, 2);
+  border-radius: 1rem;
+  border: none;
+  text-decoration: none;
+  border: solid 4px rgb(121, 56, 56);
+  transition: 0.3s background;
+}
+
+#nextPage:hover{
+  background: bisque;
+}
+
+#backPage {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(255, 210, 156);
+  color: rgb(67, 2, 2);
+  border-radius: 1rem;
+  border: none;
+  text-decoration: none;
+  border: solid 4px rgb(121, 56, 56);
+  transition: 0.3s background;
+}
+
+#backPage:hover{
+  background: bisque;
 }
 
 #msg{
@@ -70,4 +123,48 @@ body {
 
 .hide{
     display: none;
+}
+
+
+
+.choice-div{
+    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.player {
+  margin: 10vmin;
+  font-size: 2rem;
+  background: #351903;
+  width: 10vmin;
+  height: 10vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: solid 4px rgb(121, 56, 56);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.player:hover{
+  border: solid 4px rgb(173, 115, 115);
+}
+
+.player-active {
+  opacity: 1;
+  border: solid 4px rgb(173, 115, 115);
+}
+
+#playerX {
+  color: #8DA432;
+}
+
+#playerO {
+  color: #EDE383;
 }
